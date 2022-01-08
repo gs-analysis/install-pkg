@@ -11,10 +11,12 @@ export interface InstallPackageOptions {
 }
 
 export async function installPackage(names: string | string[], options: InstallPackageOptions = {}) {
+  // 包管理器
   const agent = options.packageManager || await detectPackageManager(options.cwd) || 'npm'
   if (!Array.isArray(names))
     names = [names]
 
+  // 额外的依赖
   const args = options.additionalArgs || []
 
   if (options.preferOffline)
