@@ -9,7 +9,7 @@ categories: [ analysis ]
 
 ---
 
-本文是在看到[Vue团队核心成员开发的39行小工具 install-pkg 安装包，值得一学！](https://github.com/lxchuan12/install-pkg-analysis)文章后，对[@antfu/install-pkg](https://github.com/antfu/install-pkg#readme)进行的一次源码阅读。
+本文是在看到[《Vue团队核心成员开发的39行小工具 install-pkg 安装包，值得一学！》](https://github.com/lxchuan12/install-pkg-analysis)文章后，对 [@antfu/install-pkg](https://github.com/antfu/install-pkg#readme) 进行的一次源码阅读。
 
 <!--more-->
 
