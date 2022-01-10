@@ -1,0 +1,33 @@
+name: 'Deploy Blog 🚀'
+
+on:
+  push:
+    branches:
+      - main
+    #      监听指定文件/文件夹修改
+    paths:
+      - 'README.md'
+
+jobs:
+  deploy-blog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@main
+
+      - name: Push Specify Files To Blogs repository
+        uses: dmnemec/copy_file_to_another_repo_action@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.COPY_FILE_TO_ANOTHER_REPO }}
+        with:
+          #          要移动的文件或目录
+          source_file: 'README.md'
+          destination_repo: 'gs-analysis/why'
+          #          目标文件夹
+          destination_folder: 'test-dir/2022'
+          #          重命名文件
+          rename: 'test01_rename.md'
+          user_email: 'MrDaemon@outlook.com'
+          user_name: 'MrSeaWave'
+          commit_message: 'docs: update doc 🚀🚀🚀'
