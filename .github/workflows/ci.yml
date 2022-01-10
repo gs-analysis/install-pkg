@@ -25,6 +25,7 @@ jobs:
           source_file: 'README.md'
           #          目标仓库
           destination_repo: 'MrSeaWave/blogs'
+          destination_branch: 'master'
           #          目标仓库下的文件夹
           destination_folder: 'source/_posts/2022'
           #          重命名文件
