@@ -4,8 +4,8 @@ author: Sea
 toc: true
 date: 2022-01-08 17:00:28
 cover: https://cdn.jsdelivr.net/gh/MrSeaWave/figure-bed-profile@main/uPic/2022/pLHqhA_inhyuk-lee-1.jpg
-tags: [install-pkg,analysis]
-categories: [analysis]
+tags: [ install-pkg, analysis ]
+categories: [ analysis ]
 
 ---
 
