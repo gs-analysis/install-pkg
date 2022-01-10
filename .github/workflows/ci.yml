@@ -23,11 +23,12 @@ jobs:
         with:
           #          要移动的文件或目录
           source_file: 'README.md'
-          destination_repo: 'gs-analysis/why'
-          #          目标文件夹
-          destination_folder: 'test-dir/2022'
+          #          目标仓库
+          destination_repo: 'MrSeaWave/blogs'
+          #          目标仓库下的文件夹
+          destination_folder: 'source/_posts/2022'
           #          重命名文件
-          rename: 'test01_rename.md'
+          rename: 'install-pkg.md'
           user_email: 'MrDaemon@outlook.com'
           user_name: 'MrSeaWave'
-          commit_message: 'docs: update doc 🚀🚀🚀'
+          commit_message: 'docs: update install-pkg.md 🚀🚀🚀'
